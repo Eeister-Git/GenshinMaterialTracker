@@ -1,0 +1,38 @@
+
+/*master style */
+
+body {
+    margin: 0px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display:flex;
+}
+
+.character-name{
+    justify-content: right;
+    padding: 200px;
+}
+
+.nav-wrapper> .left-header> .character-icon{
+    height:  px;
+    width: auto;
+
+}
+
+.nav-wrapper > .center-header > div{
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.nav-aesth-bar{
+    overflow: hidden;
+    background: #4caf50;
+}
+
